@@ -2,4 +2,22 @@
 layout: default
 ---
 
-<p>started website</p>
+
+<header>
+  {% include nav.html %}
+  <div>
+    <p>We are Salty_League</p>
+    <p>A Instagram page that post</p>
+    <p>Memes, videos, fanart, cosplays and custom skins </p>
+  </div>
+</header>
+<section>
+  {% for post in site.data.post %}
+    <a href="#">
+      <div style="background-image: url({{post.images}})">
+        <p>{{post.title}}</p>
+        <p>{{post.desc}}</p>
+      </div>
+    </a>
+  {% endfor %}
+</section>

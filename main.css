@@ -51,19 +51,21 @@ header div p {
   margin: 0;
 }
 
-header nav {
+nav {
   align-items: center;
   display: flex;
   font-size: 18px;
   justify-content: space-between;
   height: 50px;
+  position: fixed;
+  width: 100%;
 }
 
-header nav p {
+nav p {
   margin-right: 5%;
 }
 
-header nav ul {
+nav ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
@@ -72,13 +74,13 @@ header nav ul {
   padding: 0;
 }
 
-header nav ul li a, header nav p a {
+nav ul li a, nav p a {
   color: #fff;
   transition: all ease 1s;
   text-decoration: none;
 }
 
-header nav ul li a:hover {
+nav ul li a:hover {
   color: #e2e1e1;
 }
 
@@ -147,3 +149,39 @@ section a div:hover::before {
   padding-bottom: 5px;
   border-bottom: 1px solid #fff;
 }
+
+.owner {
+  background-color: #a7a5a5;
+  display: flex;
+  flex-direction: column;
+}
+
+.owner div {
+  font-size: 30px;
+  margin-left: 4%;
+  margin-top: 4%;
+  width: 33%;
+}
+
+.owner div h2 {
+  border-bottom: 1px solid #000;
+  display: inline-block;
+  margin: 9% 0 0 0;
+  padding-bottom: 5px;
+}
+
+.owner nav {
+  background-color: #a7a5a5;
+}
+
+.owner nav ul li a, .owner nav p a {
+  color: #000;
+}
+
+.owner img {
+  align-self: center;
+  margin: 5% 0;
+  width: 90%;
+}
+
+/*responsive design*/

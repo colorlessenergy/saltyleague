@@ -1,11 +1,14 @@
 - title: Owners
   desc: Currently there are two owners
   images: images/favicon.jpg
+  link: owner.html
 
 - title: Graves main
   desc: one of them main Graves
   images: images/graves.png
+  link: graves.html
 
 - title: Miss Fortune
   desc: other mains Miss Fortune
   images: images/missfortune.jpg
+  link: missfortune.html

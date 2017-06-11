@@ -13,7 +13,7 @@ layout: default
 </header>
 <section id="post">
   {% for post in site.data.post %}
-    <a href="#">
+    <a href="{{post.link}}">
       <div style="background-image: url({{post.images}})">
           <p>{{post.title}}</p>
           <p class="desc">{{post.desc}}</p>

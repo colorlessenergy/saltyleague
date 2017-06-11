@@ -185,3 +185,27 @@ section a div:hover::before {
 }
 
 /*responsive design*/
+
+@media screen and (max-width: 800px) {
+
+  header div {
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  section {
+    flex-direction: column;
+  }
+
+  section a div, section a {
+    width: 100%;
+  }
+
+  .owner div {
+    width: 95%;
+  }
+
+  .owner div h2 {
+    margin: 15% 0 0 0;
+  }
+}

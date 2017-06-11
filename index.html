@@ -11,12 +11,12 @@ layout: default
     <p>Memes, videos, fanart, cosplays and custom skins </p>
   </div>
 </header>
-<section>
+<section id="post">
   {% for post in site.data.post %}
     <a href="#">
       <div style="background-image: url({{post.images}})">
           <p>{{post.title}}</p>
-          <p>{{post.desc}}</p>
+          <p class="desc">{{post.desc}}</p>
       </div>
     </a>
   {% endfor %}

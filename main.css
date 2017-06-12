@@ -44,6 +44,7 @@ header div {
   flex-direction: column;
   flex: 1 1 auto;
   font-size: 2.5em;
+  font-weight: bold;
   justify-content: center;
 }
 
@@ -78,6 +79,10 @@ nav ul li a, nav p a {
   color: #fff;
   transition: all ease 1s;
   text-decoration: none;
+}
+
+.owner nav ul li a, .owner nav p a {
+  color: #000;
 }
 
 nav ul li a:hover {
@@ -174,10 +179,6 @@ section a div:hover::before {
   background-color: #a7a5a5;
 }
 
-.owner nav ul li a, .owner nav p a {
-  color: #000;
-}
-
 .owner img {
   align-self: center;
   margin: 5% 0;
@@ -191,14 +192,19 @@ section a div:hover::before {
   header div {
     text-align: center;
     font-size: 2em;
+    font-weight: normal;
   }
-  
+
   section {
     flex-direction: column;
   }
 
   section a div, section a {
     width: 100%;
+  }
+
+  nav ul {
+    width: 50%;
   }
 
   .owner div {

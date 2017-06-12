@@ -3,6 +3,11 @@
   images: images/favicon.jpg
   link: owner.html
 
+- title: They play league of legends!
+  desc: Add them on league
+  images: images/rs.jpg
+  link: rs.html
+
 - title: Graves main
   desc: one of them main Graves
   images: images/graves.png
